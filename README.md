@@ -1,23 +1,20 @@
-# aliyun-specs
-Aliyun Mobile Service CocoaPods specs.
+# uuptSpecs
+UUPT Mobile Service CocoaPods specs.
 
-阿里云移动服务iOS CocoaPods仓库。
+UU跑腿移动服务iOS CocoaPods仓库。
 
 ## 使用
 - Podfile中指定仓库位置，
-
 ```
-# Master仓库不要遗漏
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/aliyun/aliyun-specs.git'
+http://uugit.uupt.com/zhangwenbin/uuptSpecs.git
 ```
 
-- 为工程target添加依赖，例：引入阿里云推送依赖，
+- 为工程target添加依赖，例：公共地图依赖，
 
 ```
-pod 'AlicloudPush', '~> 1.9.1'
+pod 'UUPTMapView', '~> 1.0.0'
 ```
 
 ## Links
-- [Podfile Syntax Reference](https://guides.cocoapods.org/syntax/podfile.html#podfile)
-- [AMS SDK Library](https://github.com/aliyun/aliyun-specs/blob/master/Library.md)
+- [UUPTMapView Library](http://uugit.uupt.com/zhangwenbin/UUPTMapView.git)
+- [UUPTUI Library](http://uugit.uupt.com/zhangwenbin/UUPTUI.git)
